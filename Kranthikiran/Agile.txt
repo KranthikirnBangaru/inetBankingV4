@@ -1,0 +1,367 @@
+Agile model/ Agile methodology/Agile Process:
+---------------------------------------------
+
+	It is an iterative and incremental Approach.
+
+Iterative : same kind of process repeat again and again.
+-----------
+
+Incremental: we will implement some feature of begining in the software then we keep on adding new modules or features existing softwares.
+------------
+
+* Agile is iterative and incremental
+
+Agile principles:
+-----------------
+* customer no need to weight till the complete software is develop.
+* we develop, test and release a piece of software & Deliver to the customer with few number of features.
+* we can accept/accomodate requirement changes.
+* In Agile delivery is very faster.
+
+There will be good communication between Customer, business Analyst, Developer and Testers.
+
+Advantages:
+-----------
+- Requirement changes are allowed in any stage of development or we can accommodate requirement changes in the middle of development.
+- Release will be very fast.
+- Customer no need to wait for long time.
+- It is very easy model to adopt.
+- Good comminication between team.
+
+Disadvantages:
+--------------
+
+- Less focus on design and documentation, since we deliver software is very faster.
+
+Scrum:
+------
+	Scrum is a framework through which we develop and test the build software finally we release the software to the customer. product by following Agile priciples.
+
+	Scrum is a framework through which we build software by following Agile priciples.
+
+Scrum Team:
+-----------
+Product Owner
+Scrum master
+Dev Team
+QA Team
+
+Product owner: 	Define the features of the product.
+-------------  	Prioritize features according to market value.
+		Adjust features and priority every Iteration, as needed 
+		accept or reject work result.
+
+Scrum master:	The main role is facilitating and driving the agile process. will organize the meetings. 
+-------------	
+ 
+Dev & QA Team:	Develop and test the software. perform the tasks. 
+--------------
+
+Scrum terminology:
+------------------
+
+- User Story: it represent feature/Module in a software. samll requirement.
+
+- Epic: collection of user stories. large requirement.
+
+- Product backlog: contains list of user stories. prepared by product owner. product owner will prepare the product backlog by taking all the requirement 
+		   from the customer and and convert them into stories epics they will put them as a list.
+		 - it contains all the stories from the product every story will return in the product back log.
+		 - it contains all the requirements and all the stories return by the product owner. 
+
+- Sprint/Iteration : Period of time to complete the user stories, sprint cycle will be decided by the product owner and team, usually 2-4 weeks of time.
+
+sprint planning meeting: Meeting conducts with the team to define what can be delivered in the sprint and duration.
+------------------------
+
+   1. how many stories we have in the backlog 
+   2. how many stories we are going to develop and test during the sprint. 
+   3. what is the duration of the sprint.
+
+Sprint backlog: List of committed stories by Dev/QA for specific sprint. specific number of stories or commited stories by developer and QA. they are ready for Dev and test.
+--------------		  We have only few number of stories which is comitted by bthe dev and QA for specific sprint.
+
+Scrum meeting: meeting conducted by scrum master everyday 15mins. called as scrum call/standup meeting. this meet conducted by scrum master. scrum master is responsible
+--------------           for facilitating and driving the process. s.m. will track the entire status. 
+	
+	- In this meeting Developers & QA scrum master, sometimes Product owner also part of this meeting.
+	- everyday 15mins. spend discuss the status of stories.
+	- How Devloper is doing. Tester are doing. Developer task is going in time or not. they are facing any issue. all these things should discuss in scrum meeting.
+
+
+sprint retrospective meeting: conducts meeting after completion of sprint. the entire team, including both the scrum master and the product owner
+----------------------------	should participate.(discussed about tasks challanges problems, facing issues).
+
+
+Story point: Rough estimation of user stories, will be given by Dev and QA in the form of Fibonacci series.
+-----------
+		or   It is an estimation given by Tester and Dev for specific Story.
+	During sprint planning Developer & QA will sit together and they will give estimation for every story.
+
+	0  1  1  2  3  5  8 . . . . 
+1story point = 1 hour/1day(6hr)
+
+Login ---> Dev-5 QA-3 = 8hours / 1day
+
+Burndown chart: shows how much work remaining in the sprint. Maintained by the scrum master daily.
+---------------
+ 
+Roles: Product Owner, Scrum Master, Team
+
+Artefacts: Product backlog, Sprint Backlog/Burndown chart.
+
+Ceremonies: Sprint planning, Daily scrum, Sprint Review.
+
+
+Scrum Board:
+------------
+Stories, To Do, In progress, Testing, Done.
+
+
+Release Planning: all the teams will decide how many sprints are required and each sprint how many stories we have to develop and Test. 
+-----------------
+
+sprint Planning: what are the stories we have to develop and Test. what is the duration of the sprint. what are the different task developer will do. what are the 
+		 different task tester will do, what is the estimation all these things discussed to the sprint planning meeting.
+
+
+Advantages of Agile Scrum:
+
+- we can save time and cost of the project.
+- The quality can be ensured because each and every sprint will be tested mutltiple times.
+- The requirements change can be accepted at any level of the project maintenance.
+- All are participating in scrum meeting so that transparency can be maintained.
+- Each and every sprint we are delivering to the client so we can maintain the customer's satisfaction and we can avoid delivery risk of the project.
+
+
+
+
+Agile Testing + Jira Tool
+-------------------------
+
+ - What is Agile	
+ - What is Scrum / Scrum Team
+ - what is sprint
+ - what is user story.
+ - How to give story points/How to estimate user stories.
+ - what is Defination of Done and Defination of Ready.
+ - Different sprint Activities.
+ - Spring Planning / Backlog Refinement / Sprint Review / Sprint Retrospective.
+ 
+
+ - How to install and configure JIRA tool.
+ - How to create an EPIC/USer stories in JIRA.
+ - creating sprints in Jira.
+ - sprint life cycle in JIRA.
+ - Backlogs in JIRA.
+ - Creating Bugs in JIRA.
+ - How top write test cases in JIRA with Zephyr plugin.
+ - Creating Test Cycles and Execute Test Cases in Jira.
+
+
+
+Agile Process:
+--------------
+	Agile is an approach to software development under which requirements and solutions evolve through the collaborative effort of self-organizing and cross-functional
+teams and their customer/end user.
+
+	Both Development and Testing Activities are concurrent unlike the waterfall model.
+
+Epic, story, Task.
+
+// functional requirement Document: which contains the which are specified by the customer.
+
+Epic : it is large requirement.
+Story: it is smaller Requirement.
+Task: task is action which we need to perform on that partcular story.
+
+
+	Ex: As a user I need to use Online Banking Application.
+
+Story - 1 : As a user i can login into online Banking Application.
+Story - 2: As a user i can check my balance in my account.
+---
+---
+---
+
+Story - 1 : As a user i can login into online Banking Application.
+
+Development Task:
+- Review the story
+- Estimate the story
+- Designing
+- Code
+- Unit Testing
+- Integration Etc.
+
+QA:
+- Review the story
+- Test CAses
+- Test Scenarios
+- Test Data
+- Reviews
+- Test Environment
+- Execute Test Cases
+- Report Bugs
+
+
+Story: it is smaller Requirement.
+
+Agile Roles:
+------------
+
+Product Owner: He is responsible for Epic, Story, Task. get the stories and create the stories based upon the features which are provided by the customer.
+	       He will prepare the stories. 
+	       Get the feature from the customer. he will prepare a story.
+
+     Def:      Responsible for getting the Requirements from the Customer/Stakeholders.
+		- Define the features of the product.
+		- Decide on release date and content
+		- Prioritize features according to market value
+		- Adjust features and priority every iteration, as needed.
+		- Accept or reject work results.
+
+Scrum Master:
+		- A scrum master is the facilatator for an Agile Development Team.
+		- Enable close cooperation acroiss all roles and functions.
+		- if there are any challenges, processing is delays, any blockers etc, scrum master is responsible to talk to the management.
+
+DOR - Defination of Ready.
+DOD - Defination of Done.
+
+DOR - Defination of Ready.
+
+- User stories is clear.
+- user story is testable
+- User story is feasible.
+- User Story Defined
+- User Story Acceptance Criteria Defined
+- User story dependencies identified
+- User story sized by Developement Team
+- Scrum team accepts user Experience artefacts
+- Performance criteria identified, where appropriate.
+- scalability criteria Identified, where appropriate.
+- Security criteria identified, where appropriate.
+- Person who will accepts the User story is identified
+- Team has a idea what it will mean to Demo the user story.
+
+Sample Defination of Done.
+
+- Code produced (All 'to do' itwms in code completed).
+- Code commented, checked in and run aganist current version in source control.
+- Peer reviewed(or produced with pair programming) and meeting development standards.
+- Builds withour Errors.
+- Unit Tests Written and Passing.
+- Deployed to system test environment and passed system tests.
+- Passed UAT(user Acceptance test) and signed off as meeting requirements.
+- Any build / Deployment / Configuration changes are implemented / documented / Communicated.
+- Relevant Documentation / diagrams produced and / or Updated.
+- remaining hours for task set to Zero and Task closed.
+
+Product Backlog:
+----------------
+		This is prepared by Product owner. which contains the requirements from the customer stories and epics.
+
+
+In agile we don't have any Business Analyst. we have Product owner.
+
+
+notes:
+The release time will be divided in to multiple sprints. and every sprint we need to plan again. Every sprint Developers will do certain Activities and Tester will do 
+certain Activities.
+
+Development Task: Understanding requirements, setting up environments, creating unit tc, build creation.
+-----------------
+
+Tester Tasks: understand story, prepare test data, prepare test scenario, test cases, build deployement, functional testing, retesting, bug report.
+-------------
+
+****************************************************************************************************************************************************************************
+****************************************************************************************************************************************************************************
+
+Jira Tool:
+----------
+
+Test Management Tool: 
+---------------------
+		Whatever activities we are doing through out the testing process, through out the testing life cycle, we are tracking the task in a tool, these tool
+consider as the Test Management Tool. 
+
+	- we can define the requirements, we can write the test scenarios, test cases, report bugs, close bugs requirement. all these activities are Testing activities.
+	
+
+Bug Tracking tool/Defect tracking tool:
+---------------------------------------
+	whenever you find the bug, you can report the bug through that particular tool.
+	
+
+Agile Tools:
+------------		-jira, Versionone, Teamcity....
+
+Jira --> It is a Agile management tool
+  
+	i e includes development activities, testing activities product owner everybody  will track everything itself. we can also do test management activities.
+jira itself not providing any Test management activities.
+
+	create testcases, import test cases, we can create a test cycle. there is any failure reoprt the bugs. these are all test management activities.
+
+
+
+Agile scrum activities:
+----------------------- 
+- How to create a project in Jira.
+- How to add users/people in jira.
+
+- how to create Backlog, Epic, & User stories in JIRA. --> Epic.
+- How to create stories in Jira & add story points.
+
+- Story points
+
+- Backlog --> Epic --> Stories
+- Createsprint --> Add stories to the sprint --> Start sprint --> Add tasks for every story.
+
+Backlog: Product owner will create the backlog by taking the requirement from the customer. Backlog contain EPICs( 1 or more). Epic contain Stories.
+--------
+
+- Creating sprint in Jira : 3 to 4 weaks of time. onc we created a sprint then we have to select sum stories backlog 
+                            add those stories from particular sprint.
+- Adding user sub-tasks stories to sprint.
+- Stating sprint.
+- sprint life cycle.
+- Adding sub-tasks to sprint.
+- sprint life cycle.
+
+what is sprint?
+
+it is a cycle which contains 2 to 4 weaks of duration, with in the duration we have to implement few number of stories not all the stories.
+once sprint is created commited stories then the responsibilities Developers and Testers.
+
+Test Management Activities: (Zepyre plug-in)
+---------------------------
+	1). Test cases.
+	2). Test cycles(Regression, Functional, Sanity Test cycle)
+	3). Update Test cases passes/failed/blocked.
+	4). Report bugs
+	5). Reports
+
+How to install zephyr plugin(test summary reports).
+how to create test case in jira manually.
+how to import multiple test cases into Jira tool(we have created Test cases manually pr we can imported test cases in jira tool).
+
+Creating test cycles
+Add test cases to cycle
+Execute/Update test cases
+Reporting Bugs
+Reports in zephyr
+Traceability Matrix
+
+
+sinle place we can do everything: 
+jira is agile test management tool so we r using cloud instance 
+
+	Two kind of activities we can created in JIRA. we can do all agile related activities. i e we can create a project, we can add the user to particular project,
+we can create a backlog, add the stories, create the sprint, we can move the stories to particular sprint. These activities we do in JIRA.
+
+
+
+ 
